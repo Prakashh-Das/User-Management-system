@@ -1,0 +1,60 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="ISO-8859-1">
+    <title>Insert title here</title>
+    <style>
+        body {
+            font-family: Arial, Helvetica, sans-serif;
+            font-weight: bold;
+        }
+        h1 {
+            margin: 120px 0px 150px;
+            font-size: 37px;
+            text-align:center;
+        }
+        .all-links{
+            display: flex;
+            justify-content: center;
+            margin-top: 6.4vh;
+        }
+        .all-links button{
+            height: 80px;
+            width: 240px;
+            background-color: rgb(105, 105, 105);
+            color: white;
+            border: none;
+            font-size: 20px;
+            margin: 0px 25px;
+            font-weight: bold;
+        }
+        a{
+            text-decoration: none;
+        }
+        .all-links button:hover
+        {
+            background-color: rgb(0, 0, 0);
+        }
+    </style>
+</head>
+<body>
+    <h1>WELCOME</h1>
+    <div class="all-links">
+        <form action="viewAll">
+            <button> All users </button>
+        </form>
+        <form action="RemoveUser.html">
+            <button> Remove user </button>
+        </form>
+    </div>
+    <div class="all-links">
+        <form action="UpdateUser.html">
+            <button> Update details </button>
+        </form>
+        <form action="index.html">
+            <button> Logout </button>
+        </form>
+    </div>
+</body>
+
+</html>

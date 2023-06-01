@@ -1,0 +1,64 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="ISO-8859-1">
+    <title>User register</title>
+    <style>
+        .box {
+            display: flex;
+            justify-content: center;
+            text-align: right;
+            font-family: Arial, Helvetica, sans-serif;
+            font-weight: bold;
+        }
+        .box h1 {
+            margin: 120px 0px 50px;
+            font-size: 37px;
+        }
+        input{
+            width: 300px;
+            height: 30px;
+            margin: 5px;
+        }
+        input[type="radio"]{
+            width: 40px;
+            height: 20px;
+            margin: 5px 0px 18px 20px;
+        }
+        input[type="submit"]{
+            width: 390px;
+            height: 40px;
+            margin: 40px 5px;
+            border: none;
+            font-size: 22px;
+            background-color: grey;
+            color: white;
+        }
+        input[type="submit"]:hover{
+            background-color: black;
+        }
+        .h-link {
+        	font-family: Arial, Helvetica, sans-serif;
+            display: flex;
+            justify-content: center;
+            text-decoration:none;
+        }
+    </style>
+</head>
+<body>
+    <div class="box">
+        <form action="UserRegister">
+            <h1>USER REGISTRATION</h1>
+            Name : <input type="text" name="name"><br>
+            Email : <input type="email" name="email"><br>
+            Phone : <input type="number" name="phone"><br>
+            Age : <input type="number" name="age"><br>
+            Address : <input type="text" name="address"><br>
+            Password : <input type="password" name="pw"><br>
+            Gender : <input type="radio" name="sex" value="Male" id="">Male<input type="radio" name="sex" value="Female" id="">Female<input type="radio" name="sex" value="Other" id="">Other&nbsp;<br>
+            <input type="submit">
+        </form>
+    </div>
+    <a href="UserLogin.html" class="h-link">Do you have an account ? Login here</a>
+</body>
+</html>
